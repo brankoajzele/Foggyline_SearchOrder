@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category    Foggyline
+ * @package     Foggyline_SearchOrder
+ * @author      Branko Ajzele <ajzele@gmail.com>
+ * @copyright   Copyright (c) Branko Ajzele (http://foggyline.net/)
+ * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+<config>
+    <modules>
+        <Foggyline_SearchOrder>
+            <version>1.0.0.0</version>
+        </Foggyline_SearchOrder>
+    </modules>
+    <global>
+        <helpers>
+            <foggyline_searchorder>
+                <class>Foggyline_SearchOrder_Helper</class>
+            </foggyline_searchorder>
+        </helpers>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <foggyline_searchorder>
+                    <file>foggyline_searchorder.xml</file>
+                </foggyline_searchorder>
+            </updates>
+        </layout>
+    </frontend>
+</config>
